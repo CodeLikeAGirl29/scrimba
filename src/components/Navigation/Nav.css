@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo+Play&display=swap');
+
+.nav-container {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #112e51;
+}
+
+.nav img {
+  width: 20%;
+  height: auto;
+}
+
+.nav span {
+  margin-left: 10px;
+}

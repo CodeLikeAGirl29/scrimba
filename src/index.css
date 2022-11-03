@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+.cont-fluid {
+  padding: 3% 12% 7%;
+}
+
+/* Navigation bar */
+
+.nvbrand {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 769px) {
+  .cont-fluid {
+    padding: 3% 5% 17%;
+  }
+
+  .nvbrand {
+    font-size: 1.2rem;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: black;
+  background-clip: content-box;
+  border: 2px solid transparent;
+  border-radius: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: white;
+}

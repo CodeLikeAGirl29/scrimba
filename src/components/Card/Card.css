@@ -1,0 +1,14 @@
+.thumb-card {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.thumb-img {
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+}
+
+.img-thumbnail {
+  background: linear-gradient(#DBE0DF, #DBE0DF);
+}

@@ -1,0 +1,81 @@
+const userData = [
+	{
+		name: 'Lindsey',
+		ghurl: 'https://github.com/codelikeagirl29',
+		imgName: 'space-travel.png',
+		folderName: 'space-travel',
+		projectTitle: 'Space Travel',
+	},
+	{
+		name: 'Lindsey',
+		ghurl: 'https://github.com/codelikeagirl29',
+		imgName: 'contact-card.png',
+		folderName: 'contact-card',
+		projectTitle: 'Contact Card',
+	},
+	{
+		name: 'Lindsey',
+		ghurl: 'https://github.com/codelikeagirl29',
+		imgName: 'airbnb-clone.png',
+		folderName: 'airbnb-clone',
+		projectTitle: 'AirBnB',
+	},
+	{
+		name: 'Lindsey',
+		ghurl: 'https://github.com/codelikeagirl29',
+		imgName: 'Travel-Journal.png',
+		folderName: 'travel-journal',
+		projectTitle: 'Travel Journal',
+	},
+	{
+		name: 'Lindsey',
+		ghurl: 'https://github.com/codelikeagirl29',
+		imgName: 'tenzies.png',
+		folderName: 'tenzies',
+		projectTitle: 'Tenzies',
+	},
+	{
+		name: 'Lindsey',
+		ghurl: 'https://github.com/codelikeagirl29',
+		imgName: 'react-info.png',
+		folderName: 'react-info',
+		projectTitle: 'React Info',
+	},
+	{
+		name: 'Lindsey',
+		ghurl: 'https://github.com/codelikeagirl29',
+		imgName: 'starwars.png',
+		folderName: 'starwars-api-react',
+		projectTitle: 'Star Wars API',
+	},
+	{
+		name: 'Lindsey',
+		ghurl: 'https://github.com/codelikeagirl29',
+		imgName: 'notes.png',
+		folderName: 'notes',
+		projectTitle: 'Notes',
+	},
+	{
+		name: 'Lindsey',
+		ghurl: 'https://github.com/codelikeagirl29',
+		imgName: 'forms.png',
+		folderName: 'forms',
+		projectTitle: 'Forms',
+	},
+	{
+		name: 'Lindsey',
+		ghurl: 'https://github.com/codelikeagirl29',
+		imgName: 'meme.png',
+		folderName: 'memegenerator',
+		projectTitle: 'Meme Generator',
+	},
+	{
+		name: 'Lindsey',
+		ghurl: 'https://github.com/codelikeagirl29',
+		imgName: 'counter.png',
+		folderName: 'counter',
+		projectTitle: 'Counter',
+	},
+];
+
+export { userData };
