@@ -12,7 +12,7 @@ These are the projects from the [Scrimba React course](https://scrimba.com/learn
 
 ![](https://camo.githubusercontent.com/c799f6192c0aaa9ac991b4183f05fc016615ba77f7d9a4cd8c74ac9230aa7e87/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f426f6f7473747261702532302d2532333739353242332e7376673f267374796c653d666f722d7468652d6261646765266c6f676f3d426f6f747374726170266c6f676f436f6c6f723d7768697465)
 
-I built and designed the [home page]()
+I built the [home page](https://my-scrimba-challenges.netlify.app/)
 
 ![screenshot of home](https://res.cloudinary.com/codelikeagirl29/image/upload/v1667487431/projects/ScreenShot_Tool_-20221103105543_stmhyk.png)
 
