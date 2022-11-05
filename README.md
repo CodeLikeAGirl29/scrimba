@@ -2,6 +2,8 @@
 
 These are the projects from the [Scrimba React course](https://scrimba.com/learn/learnreact).
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0989d403-38b9-4527-afe1-4391bc7030fe/deploy-status)](https://app.netlify.com/sites/my-scrimba-challenges/deploys)
+
 ![](https://img.shields.io/badge/scrimba-2B283A?style=for-the-badge&logo=scrimba&logoColor=white)
 
 ![](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=white&style=for-the-badge)
