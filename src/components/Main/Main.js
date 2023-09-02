@@ -3,34 +3,38 @@ import Gallery from '../Gallery/Gallery';
 import './Main.css';
 import { FaArrowUp } from 'react-icons/fa';
 import { useState, useEffect } from 'react';
+import { Link, animateScroll as scroll } from "react-scroll";
 
 export default function Main() {
 	const [isVisible, setIsVisible] = useState(false);
-	const goToBtn = () => {
-		window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
-	};
 
-	const listentoScroll = () => {
-		let heightToHidden = 25;
-		const winScroll =
-			document.body.scrollTop || document.documentElement.scrollTop;
-		if (winScroll > heightToHidden) {
-			setIsVisible(true);
-		} else {
-			setIsVisible(false);
-		}
+	const scrollToTop = () => {
+		window.scrollTo({
+			top: 0,
+			behavior: "smooth"
+		});
 	};
 
 	useEffect(() => {
-		window.addEventListener('scroll', listentoScroll);
-		return () => window.removeEventListener('scroll', listentoScroll);
+		// Button is displayed after scrolling for 500 pixels
+		const toggleVisibility = () => {
+			if (window.pageYOffset > 500) {
+				setIsVisible(true);
+			} else {
+				setIsVisible(false);
+			}
+		};
+
+		window.addEventListener("scroll", toggleVisibility);
+
+		return () => window.removeEventListener("scroll", toggleVisibility);
 	}, []);
+
 	return (
 		<>
 			{isVisible && (
-				<div className='top-btn' onClick={goToBtn}>
+				<div className='top-btn' onClick={scrollToTop}>
 					<FaArrowUp className='uparrow'></FaArrowUp>
-					{/* <h1>Button here!!</h1> */}
 				</div>
 			)}
 			<section className='main-section'>
@@ -38,7 +42,7 @@ export default function Main() {
 					<NavBar />
 					<div className='title'>
 						Scrimba Projects </div>
-            <hr class="hr" />
+					<hr class="hr" />
 					<Gallery />
 				</div>
 			</section>
