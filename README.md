@@ -16,7 +16,7 @@ These are the projects from the [Scrimba React course](https://scrimba.com/learn
 
 I built the [home page](https://my-scrimba-challenges.netlify.app/)
 
-![screenshot of home](https://res.cloudinary.com/codelikeagirl29/image/upload/v1667487431/projects/ScreenShot_Tool_-20221103105543_stmhyk.png)
+![screenshot of home](https://res.cloudinary.com/codelikeagirl29/image/upload/v1726662966/Scrimba_mgxhly.png)
 
 
 These are the Scrimba challenges from the React course on scrimba.com - I also included a couple of other projects from Scrimba & a React homepage using the `src/components/Data/Data` file - I built to view all of the projects in an image grid.
